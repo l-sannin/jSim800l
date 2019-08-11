@@ -7,7 +7,6 @@ public class test {
 	public static void main(String[] args) {
 		sim800l sim800;
 		try {
-			System.out.println(args.length);
 			if(args.length==8) {
 				String port = args[1];
 				int baudRate = Integer.parseInt(args[2]);
@@ -25,7 +24,7 @@ public class test {
 				System.out.println("NetworkOperator: "+sim800.getOperator());
 				System.out.println("Signal: "+sim800.getSignalQuality());
 				System.out.println("Set sms text mode: "+sim800.setSmsTextMode());
-				//System.out.println("Send sms: "+Sim800l.sendSms("70810115", "Sms using jSim800l"));
+				//System.out.println("Send sms: "+Sim800l.sendSms("msisdn", "Sms using jSim800l"));
 				System.out.println("deactivateGprs: "+sim800.deactivateGprs());
 				System.out.println("fullFunctionality: "+sim800.setFullFunctionality());
 				System.out.println("configureApn: "+sim800.configureApn(apn, "", ""));
