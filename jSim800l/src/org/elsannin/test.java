@@ -1,7 +1,5 @@
 package org.elsannin;
 
-
-
 public class test {
 
 	public static void main(String[] args) {
@@ -37,9 +35,6 @@ public class test {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
-
-
 	}
 
 }
